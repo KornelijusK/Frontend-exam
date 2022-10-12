@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./singleItemPageStyle.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="siteLogo">
+        <img src="./Images/Logo.png" alt="site logo" />
+      </div>
+      <div class="siteNavigation">
+        <a href="./index.html">View all ads</a>
+        <a href="./listAdd.html">List your ad</a>
+        <a href="#">Contacts</a>
+      </div>
+    </header>
+    <main>
+      <p class="adListTitle">You are now viewing one single listed ad!</p>
+
+      <div id="nameContainer" class="nameContainer"></div>
+      <div id="informationContainer" class="informationContainer">
+        <div id="imageDiv" class="imageDiv">
+          <img src="" alt="" id="itemPhoto" class="itemPhoto" />
+        </div>
+        <div id="itemDetails" class="itemDetails">
+          <div id="itemPrice" class="itemPrice"></div>
+          <div id="itemLocation" class="itemLocation"></div>
+          <div id="itemDescription" class="itemDescription"></div>
+        </div>
+      </div>
+
+      <div class="deleteButton">
+        <button onclick="deleted()">DELETE THIS ITEM</button>
+      </div>
+
+      <div class="buttonDiv">
+        <button onclick="buttonClick()">Back to front page!</button>
+      </div>
+
+      <div id="message"></div>
+    </main>
+
+    <script src="./singleItemPage.js"></script>
+  </body>
+</html>

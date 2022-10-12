@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins';
+    background-color: rgba(194, 181, 181, 0.082);
+    color: rgb(73, 64, 64);
+    margin-bottom: 50px;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(194, 181, 181, 0.205); 
+    display: flex;    
+    border-bottom: 1px solid  rgb(231, 229, 233);    
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.siteLogo {
+    width: 40%;
+    height: 100px;    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.siteNavigation {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;    
+}
+
+.siteNavigation a {
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(73, 64, 64);
+    font-weight: 900;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+a:hover {
+    color: rgb(133, 126, 126);
+}
+
+.siteLogo img {
+    height: 100px;    
+}
+
+.adListTitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px 0px;    
+}
+
+.nameContainer {
+    height: 50px;
+    font-size: 3rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;       
+}
+
+.informationContainer {
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    background-color: white;    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgb(231, 229, 233); 
+}
+
+.itemPhoto {
+    width: 35%;
+    height: 350px;   
+    object-fit:cover;
+    margin: 5px 0px;    
+}
+
+.imageDiv {
+    text-align: center;  
+}
+
+.itemDetails {
+    width: 65%;    
+    height: 400px;
+    border-left: 1px solid rgb(231, 229, 233);    
+}
+
+.itemPrice, .itemLocation {
+    height: 20%;
+    border-bottom: 1px solid rgb(231, 229, 233);
+}
+
+.itemDescription {
+    height: 60%;
+}
+
+.itemPrice, .itemLocation, .itemDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.buttonDiv {
+    margin-top: 20px;
+    text-align: center;    
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgba(190, 178, 178, 0.199);
+}
+
+#message {
+    height: 50px;    
+    margin-top: 25px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.deleteButton {     
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.deleteButton button {
+    width: 10%;
+}
+    

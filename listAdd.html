@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./listAdStyle.css" />
+
+    <title>Document</title>
+  </head>  
+  <body>
+
+    <header>
+        <div class="siteLogo">
+          <img src="./Images/Logo.png" alt="site logo" />
+        </div>
+        <div class="siteNavigation">
+          <a href="./index.html">View all ads</a>
+          <a href="./listAdd.html">List your ad</a>
+          <a href="#">Contacts</a>
+        </div>
+      </header>
+      <main>
+        <p class="adListTitle">You can list your ad here!</p>
+
+
+        <div class="input-form">
+          <input type="text" placeholder="Item name" id="itemName" required>
+          <input type="text" placeholder="Item price" id="itemPrice" required>
+          <input type="text" placeholder="Item photo url" id="itemUrl" required>
+          <input type="text" placeholder="Item description" id="itemDescription" required>
+          <input type="text" placeholder="Item location" id="itemLocation" required>    
+          <button onclick="getItemInfo()">UPLOAD ITEM</button>      
+        </div>
+        
+        <div class="buttonDiv">
+          <button onclick="buttonClick()">Back to front page!</button>
+        </div>
+
+        <div id="message"></div>
+
+
+<script src="./listAddJs.js"></script>
+  </body>
+</html>
